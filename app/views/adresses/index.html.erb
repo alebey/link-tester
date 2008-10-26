@@ -1,0 +1,8 @@
+<h1>Adresses#index</h1>
+<p>Find me in app/views/adresses/index.html.erb</p>
+<%@adresses.each do |adress|%>
+<%div_for adress do%>
+<%=link_to adress.path, adress.uri%>
+<%end%>
+<%end%>
+<%=will_paginate @adresses%>

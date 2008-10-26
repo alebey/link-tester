@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  uri: MyString
+  path: MyString
+  domain_id: 1
+  title: MyString
+  description: MyText
+  carwled_at: 2008-10-21 13:26:42
+
+two:
+  uri: MyString
+  path: MyString
+  domain_id: 1
+  title: MyString
+  description: MyText
+  carwled_at: 2008-10-21 13:26:42
